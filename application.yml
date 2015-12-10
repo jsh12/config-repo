@@ -28,7 +28,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka.192.168.11.11.xip.io/eureka/
+      defaultZone: https://eureka-028ba365-5d4f-4c87-a3d7-75526d020538.apps.cf.entdev.addev.ntrs.com/
   instance:
     metadataMap:
       instanceId: ${instance.guid}:${spring.application.name}:${server.port:8080}
